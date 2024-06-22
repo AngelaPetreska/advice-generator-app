@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
 :root {
-    --Grayish-Blue: hsl(217, 19%, 38%);
-    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
-    --Dark-Blue: hsl(218, 23%, 16%);
-    --Light-Cyan: hsl(193, 38%, 86%);
-    --Neon-Green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
 }
 
 body {
     font-family: 'Manrope', sans-serif;
-    background-color: var(--Dark-Blue);
+    background-color: var(--dark-blue);
     font-size: 28px;
     min-height: 100vh;
     display: flex;
@@ -26,20 +26,20 @@ body {
 }
 
 .advice-number {
-    color: var(--Neon-Green);
+    color: var(--neon-green);
     font-size: 0.7em;
     text-align: center;
     margin: 20px auto;
 }
 
 .text {
-    color: var(--Light-Cyan);
+    color: var(--light-cyan);
     text-align: center;
 }
 
 .card {
     width: 500px;
-    background-color: var(--Dark-Grayish-Blue);
+    background-color: var(--dark-grayish-blue);
     border-radius: 1rem;
     position: relative;
     margin: 25px;
@@ -56,14 +56,14 @@ body {
 }
 
 h1 {
-    color: var(--Neon-Green);
+    color: var(--neon-green);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 12px;
 }
 
 p {
-    color: var(--Light-Cyan);
+    color: var(--light-cyan);
     font-size: 28px;
 }
 
@@ -80,7 +80,7 @@ p {
 button {
     position: absolute;
     bottom: -30px;
-    background-color: var(--Neon-Green);
+    background-color: var(--neon-green);
     border: none;
     padding: 1rem;
     border-radius: 50%;
